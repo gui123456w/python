@@ -2,7 +2,7 @@
 contador = 0
 usuario = input("Digite seu nome ")
 idade = int(input("Digite sua idade "))
-entrar = input('Digite \'entrar\' ou \'esperar\'')
+entrar = input('Digite \'entrar\' ou \'esperar\'\n')
 while True:
     if idade >= 18:
         print("Pode andar no trem")
@@ -10,7 +10,7 @@ while True:
         print("Não pode andar no trem")
         break
 
-    comando = input("Digite 'andar' ou 'voltar' ou 'parar' ")
+    comando = input("\n Digite 'andar' ou 'voltar' ou 'parar' ")
     if entrar == "entrar":
         print("Você entrou no trem")
 
@@ -37,3 +37,4 @@ while True:
         break
     else:
         print("Comando inválido.")
+        
